@@ -1,0 +1,70 @@
+body {
+	font-family: "Arial", Times, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	text-overflow: ellipsis;
+}
+
+.cBody {
+	width: 30%;
+	height: 65px;
+	padding-bottom:0;
+	border: gainsboro;
+	border-style: solid;
+	border-width: 1px;
+	border-top:none;
+	padding-left:5px;
+}
+
+h4.cTitle {
+	width:55%;
+	margin-bottom:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-weight:bold;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.cImg{
+	width:6.25%;
+	float:left;
+	position:absolute;
+	height: 50px;
+	border-radius:10%;
+}
+
+.cTitle {
+	margin-left: 85px;
+}
+
+.cTime {
+	margin-left: 85px;
+	font-size: small;
+	color: gray;
+}
+
+.cDate {
+	position:relative;	
+	background-color: white;
+	border-style: none;
+	width:50px;
+	text-align: center;
+	bottom:61%;
+	left:80%;
+	text-transform:uppercase;
+}
+
+.cMonth {
+	font-size:12px;
+	font-weight: bold;
+}
+
+.cDay {
+	font-size:22px;
+	font-weight: bold;
+}
